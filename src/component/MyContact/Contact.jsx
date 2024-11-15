@@ -57,7 +57,7 @@ const Contact = () => {
                     />
                 </div>
                 <div className="p-6 bg-white shadow-lg rounded-md w-full">
-                    <form action="https://formspree.io/f/xjvngprq" method="POST" className="space-y-4">
+                    <form action="" method="POST" className="space-y-4">
                         <div>
                             <input type="text" name="name" placeholder="Your Name" required className="w-full p-2 border border-gray-300 rounded-md" />
                         </div>
