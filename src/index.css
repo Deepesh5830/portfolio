@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.type {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: type 1.5s steps(90) 1.5s 1 normal both, cursor 1s step-end infinite;
+  position: relative;
+}
+
+@keyframes type {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.range {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  color: #000;
+  font-size: 20px;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 10px;
+  overflow: hidden;
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+.range::after {
+  content: attr(data-attr-span);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #777777;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.range {
+  display: inline-block;
+  background: linear-gradient(#f0e10f 0 0) bottom/0% 2px no-repeat;
+  transition: 1s all;
+}
+
+.range:hover {
+  background-size: 80% 2px;
+}
+
+.active_btn {
+  display: inline-block;
+  background: linear-gradient(#f0e10f 0 0) bottom/0% 2px no-repeat;
+  background-size: 80% 2px;
+}
+
+.text {
+  /* font-size: 4vw; Responsive font size based on viewport width */
+  font-weight: 700;
+  /* color: #FDE047; */
+  text-shadow: 0.2vw 0.2vw 0.2vw #777777, 0.3vw 0.3vw 0.3vw #777777,
+    0.4vw 0.4vw 0.4vw #777777, 0.2vw 0.2vw 0.2vw #777777,
+    0.4vw 0.4vw rgba(16, 16, 16, 0.4);
+}
+
+.block {
+  position: relative;
+  margin: 300px auto 0;
+  width: 300px;
+  height: 250px;
+  background: linear-gradient(0deg, #000, #272727);
+}
+
+.block:before,
+.block:after {
+  content: "";
+  position: absolute;
+  left: -2px;
+  top: -2px;
+  background: linear-gradient(45deg, #fb0094, #0000ff);
+  background-size: 400%;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  z-index: -1;
+  animation: steam 40s linear infinite;
+}
+
+@keyframes steam {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.block:after {
+  filter: blur(10px);
+}
+
+/* your-custom-styles.css */
+.slider-container .slick-prev,
+.slider-container .slick-next {
+  display: none !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: White !important;
+  font-size: 5px !important;
+}
