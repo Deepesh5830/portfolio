@@ -22,7 +22,7 @@ const IntroductionVideo = () => {
       </div>
       <div className="relative max-w-[1120px]">
         <ReactPlayer
-          url="https://www.youtube.com/watch?v=lDxEYSRU9EI&t=24s"
+          url="https://www.youtube.com/watch?v=o8cbvazyFoQ"
           // url="\public\introduction.mp4"
           controls
           width={`${isVisible1 ? "100%" : "1120px"} `}
