@@ -1,7 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import { useNavigate } from "react-router-dom";
+import { ActiveTabContext } from "./ActiveTabContext";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,7 +11,8 @@ const Navbar = () => {
   const [dropMenu, setDropMenu] = useState(false);
   const [isVisible, setIsVisible] = useState(window.innerWidth <= 920);
   const [isVisible1, setIsVisible1] = useState(window.innerWidth <= 500);
-  const [activeTab, setActiveTab] = useState("home"); // State to manage active tab
+  // const [activeTab, setActiveTab] = useState("home"); // State to manage active tab
+  const { activeTab, setActiveTab } = useContext(ActiveTabContext);
   const navigate = useNavigate()
 
   const handleTabClick = (tab) => {
@@ -33,10 +35,10 @@ const Navbar = () => {
 
       <div className="px-[20px] flex justify-center my-[10px]">
         <div className="flex max-w-[1120px] w-full h-16 justify-between items-center">
-          <span className="max-w-[400px] h-14 cursor-pointer flex justify-center items-center"
-          onClick={()=>navigate("/")}
+          <span
+            className="max-w-[400px] h-14 cursor-pointer flex justify-center items-center"
+            onClick={() => { navigate("/"), setActiveTab("home") }}
           >
-            {/* <img src="/nextdaysoft.png" className="h-[50px]" /> */}
             <h2 className="font-bold text-[30px] text-white">DEEPESH KUMAR</h2>
           </span>
 
@@ -65,7 +67,7 @@ const Navbar = () => {
                 data-attr-span="Home"
                 onClick={() => {
                   handleTabClick("home");
-                  navigate('/') 
+                  navigate('/')
                 }}
               >
                 <span
@@ -79,7 +81,7 @@ const Navbar = () => {
                 data-attr-span="About"
                 onClick={() => {
                   handleTabClick("About");
-                   navigate('/about')
+                  navigate('/about')
                 }}
               >
                 <span
@@ -94,7 +96,7 @@ const Navbar = () => {
                 data-attr-span="Services"
                 onClick={() => {
                   handleTabClick("services");
-                   navigate('/services')
+                  navigate('/services')
                 }}
               >
                 <span
@@ -109,7 +111,7 @@ const Navbar = () => {
                 data-attr-span="Skills"
                 onClick={() => {
                   handleTabClick("Skills");
-                   navigate('/my_skill')
+                  navigate('/my_skill')
                 }}
               >
                 <span
@@ -124,7 +126,7 @@ const Navbar = () => {
                 data-attr-span="Project"
                 onClick={() => {
                   handleTabClick("Project");
-                   navigate('/my_project')
+                  navigate('/my_project')
                 }}
               >
                 <span

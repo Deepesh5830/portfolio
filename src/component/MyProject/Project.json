@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "projectName": "Abanonya Dating App",
+    "projectDuration": "3 Month",
+    "teamSize": "2",
+    "ProjectURL": null,
+    "image": [
+      "http://res.cloudinary.com/dfckycekq/image/upload/v1731648012/y6xdevhdah2exlgdv0jg.png",
+      "http://res.cloudinary.com/dfckycekq/image/upload/v1731648392/k0uybadagoxxu0cpak3e.png",
+      "http://res.cloudinary.com/dfckycekq/image/upload/v1731648392/k0uybadagoxxu0cpak3e.png",
+      "http://res.cloudinary.com/dfckycekq/image/upload/v1731648392/k0uybadagoxxu0cpak3e.png"
+    ],
+    "description": "This project involves developing a modern dating app with a user-friendly interface, advanced matching algorithms, and real-time messaging. Additionally, an admin panel will be created to manage user accounts, content, and analytics. The backend infrastructure will focus on secure user authentication, data storage, and integration of third-party services. Deployment and maintenance will ensure smooth operation and ongoing updates for optimal performance and security.The MERN stack will serve as the foundation for this project, comprising MongoDB for the database, Express.js for the backend framework, React.js for the frontend user interface, and Node.js for server-side runtime. This technology stack offers a seamless development experience, enabling efficient data management, robust server-side logic, dynamic user interfaces, and scalable applications."
+  },
+  {
+    "id": 2,
+    "projectName": "Event Management System (MECOC)",
+    "projectDuration": "3 Month",
+    "teamSize": "2",
+    "ProjectURL": null,
+    "image": [
+      "http://res.cloudinary.com/dfckycekq/image/upload/v1731648117/ufh390csvwyfka9p2h74.png",
+      "http://res.cloudinary.com/dfckycekq/image/upload/v1731648392/k0uybadagoxxu0cpak3e.png",
+      "http://res.cloudinary.com/dfckycekq/image/upload/v1731648392/k0uybadagoxxu0cpak3e.png",
+      "http://res.cloudinary.com/dfckycekq/image/upload/v1731648392/k0uybadagoxxu0cpak3e.png"
+    ],
+    "description": "The Mecoc Event Management App aims to streamline event organization processes, providing a comprehensive platform for managing events, attendees, schedules, and resources. The project involves the development of both frontend mobile applications and a backend admin panel to facilitate efficient event management.Admin Panel Development: Design and develop an intuitive admin panel interface for managing events, attendees, resources, and other aspects of the event management system.Backend Development: Implement robust backend logic and API endpoints using the MERN (MongoDB, Express.js, React.js, Node.js) stack to support the functionality required by the admin panel and mobile applications.Integration with Mobile Team: Collaborate closely with the mobile development team, providing well-documented APIs and ensuring seamless integration between the admin panel and mobile applications.Team Coordination: Work effectively within a team of four developers, coordinating tasks, sharing progress updates, and addressing any technical challenges or dependencies."
+  },
+  {
+    "id": 3,
+    "projectName": "Search And Find Application",
+    "projectDuration": "1 Month",
+    "teamSize": "2",
+    "ProjectURL": null,
+    "image": [
+      "http://res.cloudinary.com/dfckycekq/image/upload/v1731648392/k0uybadagoxxu0cpak3e.png",
+      "http://res.cloudinary.com/dfckycekq/image/upload/v1731648392/k0uybadagoxxu0cpak3e.png",
+      "http://res.cloudinary.com/dfckycekq/image/upload/v1731648392/k0uybadagoxxu0cpak3e.png",
+      "http://res.cloudinary.com/dfckycekq/image/upload/v1731648392/k0uybadagoxxu0cpak3e.png"
+    ],
+    "description": "The Search and Find application is designed to help users quickly locate specific items or information within a designated database or repository. As a frontend and backend developer on this project, your role involves building both the user interface and the server-side logic to facilitate efficient searching and retrieval of data."
+  },
+  {
+    "id": 4,
+    "projectName": "FlickStar OTT",
+    "projectDuration": "1 Month",
+    "teamSize": "1",
+    "ProjectURL": null,
+    "image": [
+      "http://res.cloudinary.com/dfckycekq/image/upload/v1731649634/w0pqsctbiq7lqnxlawv5.png",
+      "http://res.cloudinary.com/dfckycekq/image/upload/v1731648392/k0uybadagoxxu0cpak3e.png",
+      "http://res.cloudinary.com/dfckycekq/image/upload/v1731648392/k0uybadagoxxu0cpak3e.png",
+      "http://res.cloudinary.com/dfckycekq/image/upload/v1731648392/k0uybadagoxxu0cpak3e.png"
+    ],
+    "description": "Flickstart is an Over-the-Top (OTT) platform project designed to provide users with a seamless experience for streaming movies, TV shows, and other digital content. As a frontend developer on the project, your primary responsibility is to work on the user interface and user experience aspects of the platform. This involves collaborating with the design team to implement visually appealing and intuitive interfaces that enhance user engagement and satisfaction."
+  },
+  {
+    "id": 5,
+    "projectName": "Chat Application",
+    "projectDuration": "4 Month",
+    "teamSize": "1",
+    "ProjectURL": null,
+    "image": [
+      "http://res.cloudinary.com/dfckycekq/image/upload/v1731650636/rce2hot7jqnhxpitnazj.png",
+      "http://res.cloudinary.com/dfckycekq/image/upload/v1731648392/k0uybadagoxxu0cpak3e.png",
+      "http://res.cloudinary.com/dfckycekq/image/upload/v1731648392/k0uybadagoxxu0cpak3e.png",
+      "http://res.cloudinary.com/dfckycekq/image/upload/v1731648392/k0uybadagoxxu0cpak3e.png"
+    ],
+    "description": "The Chat App project aims to develop a real-time messaging application that enables users to communicate seamlessly across various platforms ,This project will offer features such as instant messaging, group chats, multimedia sharing, and user authentication, Real-time Messaging: Provide users with the ability to send and receive messages instantly, facilitating seamless communication , Group Chats: Allow users to create and participate in group chats, enabling multiple users to communicate within a single conversation, Backend Development: Design and develop the backend infrastructure using technologies like Node.js and Express.js to handle user authentication, message storage, and real-time communication. Frontend Development: Create responsive and user-friendly frontend interfaces using frameworks like React.js allowing users to interact with the application seamlessly. Integration of Real-time Communication: Integrate real-time communication technologies, such as WebSockets or Socket.io, to enable instant message delivery and updates."
+  },
+  {
+    "id": 6,
+    "projectName": "Hire PhotoGrapher",
+    "projectDuration": "2 Month",
+    "teamSize": "1",
+    "ProjectURL": null,
+    "image": [
+      "http://res.cloudinary.com/dfckycekq/image/upload/v1731648661/ivgemlxvfriqkvezetzy.png",
+      "http://res.cloudinary.com/dfckycekq/image/upload/v1731648392/k0uybadagoxxu0cpak3e.png",
+      "http://res.cloudinary.com/dfckycekq/image/upload/v1731648392/k0uybadagoxxu0cpak3e.png",
+      "http://res.cloudinary.com/dfckycekq/image/upload/v1731648392/k0uybadagoxxu0cpak3e.png"
+    ],
+    "description": "Developed HirePhotoGrapher, an online platform designed to connect clients with professional photographers for events, photoshoots, and other photography services. As the sole developer, I was responsible for the complete end-to-end development of the application, including the front-end, back-end, and admin panel.Key Features and Responsibilities:Frontend Development: Built a dynamic, responsive user interface using React.js, allowing users to easily browse photographer portfolios, book services.Backend Development: Created robust back-end APIs with Node.js and Express.js to handle user registrations, bookings, payments, and messaging features.Database Management: Utilized MongoDB for flexible data storage, managing photographer profiles, client data, and booking history.Admin Panel: Developed a comprehensive admin panel to allow photographers to manage their profiles, view bookings, and interact with clients, as well as enabling the platform’s admin to oversee user activity and bookings.Security & Performance: Implemented best practices for data security, user authentication, and optimized the application for fast performance."
+  },
+  {
+    "id": 7,
+    "projectName": "Next Day Website",
+    "projectDuration": "1 Month",
+    "teamSize": "1",
+    "ProjectURL": null,
+    "image": [
+      "http://res.cloudinary.com/dfckycekq/image/upload/v1731648805/saswp6pqqlvfchokurii.png",
+      "http://res.cloudinary.com/dfckycekq/image/upload/v1731648392/k0uybadagoxxu0cpak3e.png",
+      "http://res.cloudinary.com/dfckycekq/image/upload/v1731648392/k0uybadagoxxu0cpak3e.png",
+      "http://res.cloudinary.com/dfckycekq/image/upload/v1731648392/k0uybadagoxxu0cpak3e.png"
+    ],
+    "description": "Developed and deployed the official website for NextDay Software Solutions, a dynamic, responsive platform showcasing the company’s services, projects, and solutions. Utilized the MERN stack to build both the front-end and back-end components, ensuring a seamless user experience. Key features include:Custom CMS: Built an easy-to-use content management system (CMS) for the marketing team to update site content without requiring technical knowledge.Responsive Design: Implemented a mobile-first approach to ensure the website is fully responsive across all devices."
+  },
+  {
+    "id": 8,
+    "projectName": "Hire PhotoGrapher Admin Panel",
+    "projectDuration": "3 Month",
+    "teamSize": "1",
+    "ProjectURL": null,
+    "image": [
+      "http://res.cloudinary.com/dfckycekq/image/upload/v1731648888/j9r0zaje4koqpel8s1wc.png",
+      "http://res.cloudinary.com/dfckycekq/image/upload/v1731648392/k0uybadagoxxu0cpak3e.png",
+      "http://res.cloudinary.com/dfckycekq/image/upload/v1731648392/k0uybadagoxxu0cpak3e.png",
+      "http://res.cloudinary.com/dfckycekq/image/upload/v1731648392/k0uybadagoxxu0cpak3e.png"
+    ],
+    "description": "Developed HirePhotoGrapher, an online platform designed to connect clients with professional photographers for events, photoshoots, and other photography services. As the sole developer, I was responsible for the complete end-to-end development of the application, including the front-end, back-end, and admin panel.Key Features and Responsibilities:Frontend Development: Built a dynamic, responsive user interface using React.js, allowing users to easily browse photographer portfolios, book services.Backend Development: Created robust back-end APIs with Node.js and Express.js to handle user registrations, bookings, payments, and messaging features.Database Management: Utilized MongoDB for flexible data storage, managing photographer profiles, client data, and booking history.Admin Panel: Developed a comprehensive admin panel to allow photographers to manage their profiles, view bookings, and interact with clients, as well as enabling the platform’s admin to oversee user activity and bookings.Security & Performance: Implemented best practices for data security, user authentication, and optimized the application for fast performance."
+  }
+]

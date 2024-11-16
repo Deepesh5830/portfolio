@@ -1,13 +1,16 @@
 import { BrowserRouter } from 'react-router-dom'
 import './App.css'
 import AllRoutes from './allRoutes/allRoutes'
+import { ActiveTabProvider } from './component/Navbar/ActiveTabContext'
 
 function App() {
 
   return (
-    <BrowserRouter>
-      <AllRoutes />
-    </BrowserRouter>
+    <ActiveTabProvider>
+      <BrowserRouter>
+        <AllRoutes />
+      </BrowserRouter>
+    </ActiveTabProvider>
   )
 }
 
