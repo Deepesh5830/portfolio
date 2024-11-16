@@ -59,13 +59,18 @@ const About = () => {
                                 </tr>
                             </tbody>
                         </table>
-                        <h2 className='text-[20px] font-bold text-white'>Please download my cv for full details</h2>
-                        <button
-                            onClick={() => window.location.href = '/path/to/your/cv.pdf'}
+                        <h2 className='text-[20px] font-bold text-white mb-4'>Please download my cv for full details</h2>
+                        {/* <button
+                            onClick={() => window.location.href = 'https://res.cloudinary.com/dgtrp5bxo/image/upload/v1731746902/jbnh90bokkrocvqilodr.pdf'}
                             className="mt-4 border rounded-full py-2 px-5 cursor-pointer bg-yellow-300 text-black"
                         >
                             Download CV
-                        </button>
+                        </button> */}
+                        <a
+                            className="mt-4 border rounded-full py-2 px-5 cursor-pointer bg-yellow-300 text-black"
+                            href="\public\CV-Deepesh.pdf" download>
+                            Download PDF
+                        </a>
                     </div>
                 </div>
 
@@ -74,7 +79,7 @@ const About = () => {
             <div className='w-full max-w-[1120px]'>
                 <Education />
             </div>
-          
+
         </div>
     );
 };
