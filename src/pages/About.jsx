@@ -68,7 +68,7 @@ const About = () => {
                         </button> */}
                         <a
                             className="mt-4 border rounded-full py-2 px-5 cursor-pointer bg-yellow-300 text-black"
-                            href="https://res.cloudinary.com/dgtrp5bxo/image/upload/v1731746902/jbnh90bokkrocvqilodr.pdf" download>
+                            href="http://res.cloudinary.com/dgtrp5bxo/image/upload/v1732016990/z9whulr9bt0ywtez2qfw.pdf" download>
                             Download PDF
                         </a>
                     </div>

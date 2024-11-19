@@ -13,7 +13,7 @@ const Footer = () => {
                     <h1 className='text-[20px] font-bold mb-7'>Connect with Me</h1>
                     <p className='max-w-[300px] text-gray-400'>Feel free to reach out and connect with me on various platforms. Stay updated on the latest tech trends, projects, and more:</p>
                     <div className='social-icon flex space-x-4 my-4'>
-                        <a href="www.linkedin.com/in/deepesh-kumar-89ba2a250" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
+                        <a href="https://www.linkedin.com/in/deepesh-kumar-89ba2a250" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
                             <FaLinkedin size={24} />
                         </a>
                         <a href="https://github.com/Deepesh5830" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
